@@ -68,3 +68,64 @@ footer p {
   transform: scale(1.05);
   box-shadow: 0 0 30px rgba(255,255,255,0.2);
 }
+
+/* Center socials section */
+.socials{
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* Each social block spacing */
+.social-item{
+    margin-top:45px;
+}
+
+/* Icon + name in same line */
+.social-title{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    font-size:20px;
+    transition: transform 0.3s ease;
+}
+
+/* Icons only default color (gray) */
+.social-title i{
+    font-size:26px;
+    color:#ccc;
+}
+
+/* Hover effect: icon + name grows */
+.social-title:hover{
+    transform: scale(1.1);
+}
+
+/* Links below the icon/name */
+.social-item a{
+    display:block;
+    margin-top:15px;
+    color:#ccc;
+    text-decoration:none;
+}
+
+/* Links hover color */
+.social-item a:hover{
+    color:inherit; /* inherit color from icon */
+}
+
+/* Specific brand colors */
+.social-title.youtube i,
+.social-title.youtube span{
+    color:#FF0000; /* YouTube red */
+}
+
+.social-title.instagram i,
+.social-title.instagram span{
+    color:hsl(28, 100%, 46%); /* Instagram gradient orange-blue */
+}
+
+.social-title.linkedin i,
+.social-title.linkedin span{
+    color:#0A66C2; /* LinkedIn blue */
+}
+
