@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background: #0f0f0f; /* dark cinematic */
+    color: rgb(251, 244, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header, .hero {
+    padding: 120px 20px;
+  background: linear-gradient(to bottom, #430000, #000000);
+}
+}
+
+h1 {
+    font-size: 200px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 60px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.video-block iframe {
+    margin: 30px 0;
+    max-width: 90%;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+footer {
+    background: #000;
+    padding: 50px 20px;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #aaa;
+}
+.video-block iframe {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-block iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+.video-block iframe {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-block iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+
+/* Center socials section */
+.socials{
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* Each social block spacing */
+.social-item{
+    margin-top:45px;
+}
+
+/* Icon + name in same line */
+.social-title{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    font-size:20px;
+    transition: transform 0.3s ease;
+}
+
+/* Icons only default color (gray) */
+.social-title i{
+    font-size:26px;
+    color:#ccc;
+}
+
+/* Hover effect: icon + name grows */
+.social-title:hover{
+    transform: scale(1.1);
+}
+
+/* Links below the icon/name */
+.social-item a{
+    display:block;
+    margin-top:15px;
+    color:#ccc;
+    text-decoration:none;
+}
+
+/* Links hover color */
+.social-item a:hover{
+    color:inherit; /* inherit color from icon */
+}
+
+/* Specific brand colors */
+.social-title.youtube i,
+.social-title.youtube span{
+    color:#FF0000; /* YouTube red */
+}
+
+.social-title.instagram i,
+.social-title.instagram span{
+    color:hsl(28, 100%, 46%); /* Instagram gradient orange-blue */
+}
+
+.social-title.linkedin i,
+.social-title.linkedin span{
+    color:#0A66C2; /* LinkedIn blue */
+}
+
